@@ -13,31 +13,31 @@ variable "user-vm1" {
 variable "tag-dono" {
   type        = string
   description = "Dono do projeto"
-  default = "Dono"
+  default     = "Dono"
 }
 
 variable "tag-ambiente" {
   type        = string
   description = "Ambiente do projeto"
-  default = "Testes"
+  default     = "Testes"
 }
 
 variable "tag-ccusto" {
   type        = string
   description = "Centro de Custo do projeto"
-  default = "Tecnologia"
+  default     = "Tecnologia"
 }
 
 variable "location" {
-  type = string
+  type        = string
   description = "Localização dos Recursos"
-  default = "brazilsouth"
-  
+  default     = "brazilsouth"
+
 }
 
 variable "sizevm" {
-  type = string
+  type        = string
   description = "Tipo de Maquina Virtual"
-  default = "Standard_B1s"
+  default     = "Standard_B1s"
 }
 

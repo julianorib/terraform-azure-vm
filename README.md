@@ -11,9 +11,12 @@ Estou iniciando meus estudos com Terraform e este é meu segundo projeto.
 - Defina algumas variáveis se for de sua necessidade (terraform.tfvars):
 
     nome, user-vm1, tag-ambiente, tag-ccusto, tag-dono, location, sizevm
+
+- Confira o caminho de sua Chave Pública SSH no main.tf (~/.ssh/id_rsa.pub)
 - Faça login na sua conta com o comando:
 
     az login 
+
 - terraform init
 - terraform apply
 
@@ -31,6 +34,12 @@ Este projeto cria os seguintes Recursos:
     Com acesso a Internet (outbound)
 - Máquina Virtual Ubuntu (Virtual Machine)
 - Mostra o IP Publico ao final
+
+# Finalizando Projeto
+
+```
+terraform destroy
+```
 
 # Informações úteis
 
