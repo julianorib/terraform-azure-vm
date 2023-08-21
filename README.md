@@ -14,11 +14,18 @@ Estou iniciando meus estudos com Terraform e este é meu segundo projeto.
 
 - Confira o caminho de sua Chave Pública SSH no main.tf (~/.ssh/id_rsa.pub)
 - Faça login na sua conta com o comando:
+```
+az login 
+```
+- Execute
+```
+terraform init
 
-    az login 
+```
+```
+terraform apply
 
-- terraform init
-- terraform apply
+```
 
 # Detalhes do Projeto
 
