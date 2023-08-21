@@ -21,6 +21,7 @@ Estou iniciando meus estudos com Terraform e este é meu segundo projeto.
 
 Este projeto cria os seguintes Recursos:
 
+- Grupo de Recursos
 - Virtual Network (VNET)
 - Subnet 
 - IP Público
