@@ -6,7 +6,7 @@ Estou iniciando meus estudos com Terraform e este é meu segundo projeto.
 - Tenha ou Instale o [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) no seu Computador.
 - Tenha ou Instale o [Azure](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) Cli no seu Computador.
 
-# Detalhes do Projeto
+## Detalhes do Projeto
 
 Este projeto cria os seguintes Recursos:
 
@@ -22,13 +22,13 @@ Este projeto cria os seguintes Recursos:
 - Mostra o IP Publico ao final
 
 
-# Faça o clone para sua Estação
+## Faça o clone para sua Estação
 
 ```
 git clone https://github.com/julianorib/terraform-azure-vm.git
 ```
 
-# Ajustes no Projeto
+## Ajustes no Projeto
 
 - Defina algumas variáveis se for de sua necessidade (terraform.tfvars):
 
@@ -38,7 +38,7 @@ git clone https://github.com/julianorib/terraform-azure-vm.git
 
 
 
-# Autenticação no Provedor
+## Autenticação no Provedor
 
 Eu faço login pelo Azure CLI.
 
@@ -47,7 +47,7 @@ az login
 ```
 
 
-# Execute para Criação:
+## Execute para Criação
 ```
 terraform init
 
@@ -58,13 +58,13 @@ terraform apply
 ```
 
 
-# Execute para Remoção:
+## Execute para Remoção:
 
 ```
 terraform destroy
 ```
 
-# Informações úteis
+## Informações úteis
 
 Tamanhos de Maquinas Virtuais Linux:
 https://learn.microsoft.com/en-us/azure/virtual-machines/sizes
