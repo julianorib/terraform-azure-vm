@@ -2,30 +2,9 @@
 
 Estou iniciando meus estudos com Terraform e este é meu segundo projeto. 
 
-# Iniciando
-
 - Primeiramente tenha uma conta na [Azure](https://azure.microsoft.com/pt-br/free/).
 - Tenha ou Instale o [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) no seu Computador.
 - Tenha ou Instale o [Azure](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) Cli no seu Computador.
-- Baixe este projeto e acesse sua pasta
-- Defina algumas variáveis se for de sua necessidade (terraform.tfvars):
-
-    nome, user-vm1, tag-ambiente, tag-ccusto, tag-dono, location, sizevm
-
-- Confira o caminho de sua Chave Pública SSH no main.tf (~/.ssh/id_rsa.pub)
-- Faça login na sua conta com o comando:
-```
-az login 
-```
-- Execute
-```
-terraform init
-
-```
-```
-terraform apply
-
-```
 
 # Detalhes do Projeto
 
@@ -42,7 +21,44 @@ Este projeto cria os seguintes Recursos:
 - Máquina Virtual Ubuntu (Virtual Machine)
 - Mostra o IP Publico ao final
 
-# Finalizando Projeto
+
+# Faça o clone para sua Estação
+
+```
+git clone https://github.com/julianorib/terraform-azure-vm.git
+```
+
+# Ajustes no Projeto
+
+- Defina algumas variáveis se for de sua necessidade (terraform.tfvars):
+
+    nome, user-vm1, tag-ambiente, tag-ccusto, tag-dono, location, sizevm
+
+- Confira o caminho de sua Chave Pública SSH no main.tf (~/.ssh/id_rsa.pub)
+
+
+
+# Autenticação no Provedor
+
+Eu faço login pelo Azure CLI.
+
+```
+az login 
+```
+
+
+# Execute para Criação:
+```
+terraform init
+
+```
+```
+terraform apply
+
+```
+
+
+# Execute para Remoção:
 
 ```
 terraform destroy
