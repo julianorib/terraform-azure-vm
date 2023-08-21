@@ -4,7 +4,7 @@ Estou iniciando meus estudos com Terraform e este é meu segundo projeto.
 
 - Primeiramente tenha uma conta na AZURE.
 - Tenha ou Instale o ![Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) no seu Computador.
-- Tenha ou Instale o ![Azure](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) Cli no seu Computador.
+- Tenha ou Instale o [Azure](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) Cli no seu Computador.
 
 Este projeto cria os seguintes Recursos:
 
