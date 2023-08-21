@@ -8,9 +8,11 @@ Estou iniciando meus estudos com Terraform e este é meu segundo projeto.
 - Tenha ou Instale o [Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) no seu Computador.
 - Tenha ou Instale o [Azure](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) Cli no seu Computador.
 - Baixe este projeto e acesse sua pasta
-- Defina algumas variáveis se for de sua necessidade (terraform.tfvars)
+- Defina algumas variáveis se for de sua necessidade (terraform.tfvars):
+
     nome, user-vm1, tag-ambiente, tag-ccusto, tag-dono, location, sizevm
-- Faça login na sua conta com o comando 
+- Faça login na sua conta com o comando:
+
     az login 
 - terraform init
 - terraform apply
