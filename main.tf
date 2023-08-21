@@ -15,7 +15,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "resource_group" {
   name     = var.nome
-  location = "brazilsouth"
+  location = var.location
   tags     = local.common_tags
 }
 
@@ -92,7 +92,7 @@ resource "azurerm_linux_virtual_machine" "vm1" {
   location              = azurerm_resource_group.resource_group.location
   resource_group_name   = azurerm_resource_group.resource_group.name
   network_interface_ids = [azurerm_network_interface.nic-vm1.id]
-  size                  = "Standard_B1s"
+  size                  = var.sizevm
   admin_username        = var.user-vm1
 
   admin_ssh_key {
